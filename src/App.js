@@ -5,11 +5,6 @@ import './App.css';
 import Expenses from './components/Expenses';
 import TransactionList from './components/TransactionList'
 
-
-
-
-
-
 function App() {
   return (
     <>
@@ -18,11 +13,8 @@ function App() {
         <Balance />
         <Expenses/>
         <TransactionList/>
-       
-        
       </div>
-
-      </>
+    </>
 
   );
 }
